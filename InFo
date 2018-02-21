@@ -12,6 +12,7 @@ in library gradle file
 
 in app:gradle fileadd:  apply plugin: 'com.github.dcendents.android-maven' 
   compile project('lib name')
-  in build.gradle(project) add : classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0' 
-  push code to git and create a relese version 
-  go to https://jitpack.io and paste yout git hub account url and you will be instructed what to do
+in build.gradle(project) add : classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0' 
+go to gradle located on right side click on my library. task->build->assemble release 
+push code to git and create a relese version 
+go to https://jitpack.io and paste yout git hub account url and you will be instructed what to do
