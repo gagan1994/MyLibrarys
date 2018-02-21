@@ -1,22 +1,26 @@
 MyLibrarys
 my first library which convert f-c
 
-STEPS:
-create a android project
-file->new->new module->android library->finish
-add files in library
-in library gradle file 
-  apply plugin: 'com.android.library'
-  apply plugin: 'com.android.library'
-  // Required plugin in library module
-  apply plugin: 'com.github.dcendents.android-maven'
-  // Replace nisrulz with <your_github_username>
-  group='com.github.<userName>'
+You can easily conver degree c to faranhit and vice versa
 
-in app:gradle file add: apply plugin: 'com.github.dcendents.android-maven'
-                            compile project(<lib name>)
-in build.gradle(project) add :
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
-push code to git and create a relese version
-got to https://jitpack.io and paste yout git hub account url 
-  and you will be instructed what to do
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        compile 'com.github.gagan1994:MyLibrarys:0.1.3'
+	}
+
+Covert Fahrenheit to celsius using 
+
+        CustomThrmoMeter.ToDegreeCelsius(faranhit)
+
+Convert CelsiusTo Fahrenheit using
+
+        CustomThrmoMeter.ToFahrenheit(degree)
