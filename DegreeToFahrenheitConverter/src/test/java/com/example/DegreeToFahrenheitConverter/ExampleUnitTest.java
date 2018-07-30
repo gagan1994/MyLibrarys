@@ -1,4 +1,4 @@
-package com.example.mylibrary;
+package com.example.DegreeToFahrenheitConverter;
 
 import org.junit.Test;
 
