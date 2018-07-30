@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DegreeToFahrenheit.iml" filepath="$PROJECT_DIR$/DegreeToFahrenheit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DegreeToFahrenheitConverter/DegreeToFahrenheitConverter.iml" filepath="$PROJECT_DIR$/DegreeToFahrenheitConverter/DegreeToFahrenheitConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TempratureConverter/TempratureConverter.iml" filepath="$PROJECT_DIR$/TempratureConverter/TempratureConverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
