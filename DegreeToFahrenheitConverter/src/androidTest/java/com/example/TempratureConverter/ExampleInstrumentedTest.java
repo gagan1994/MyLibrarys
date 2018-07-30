@@ -1,4 +1,4 @@
-package com.example.DegreeToFahrenheitConverter;
+package com.example.TempratureConverter;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

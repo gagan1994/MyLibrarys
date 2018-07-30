@@ -1,4 +1,4 @@
-package com.example.DegreeToFahrenheitConverter;
+package com.example.TempratureConverter;
 
 import org.junit.Test;
 

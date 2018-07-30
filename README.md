@@ -1,5 +1,6 @@
-DegreeToFahrenheitConverter
- It is a library which is used to convert Temprature °C-F and F-°C
+TempratureConverter
+
+It is a library which is used to convert Temprature °C-F and F-°C
 You can easily convert °C to Faranhit and vice versa
 
 Add it in your root build.gradle at the end of repositories:

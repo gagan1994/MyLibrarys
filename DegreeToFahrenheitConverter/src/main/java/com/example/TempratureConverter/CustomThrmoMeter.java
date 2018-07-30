@@ -1,4 +1,4 @@
-package com.example.DegreeToFahrenheitConverter;
+package com.example.TempratureConverter;
 
 /**
  * Created by Gagan on 2/21/2018.
