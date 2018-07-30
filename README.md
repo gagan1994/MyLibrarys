@@ -14,7 +14,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	       implementation 'com.github.gagan1994:TempratureConverter:1.0.0'
+	       implementation 'com.github.gagan1994:TempratureConverter:1.0.1'
 	}
 
 Covert Fahrenheit to celsius using 
